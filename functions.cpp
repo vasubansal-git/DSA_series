@@ -99,7 +99,7 @@ void isPrime(int n){
 
 // WAP to print all prime numbers from 2 to n:
 
-bool isPrime(int num){
+bool is_Prime(int num){
     if(num < 2){
         return false;
     }
@@ -172,7 +172,7 @@ int main(){
     cout << "Prime numbers from 2 to " << n << " are: ";
 
     for(int i = 2; i <= n; i++){
-        if(isPrime(i)){
+        if(is_Prime(i)){
             cout << i << " ";
         }
     }
