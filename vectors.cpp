@@ -18,12 +18,12 @@ int main(){
     // cout << vec[4] << endl;
 
     
-    // cout << "Size = " << vec.size() << endl;
+    cout << "Size = " << vec.size() << endl;
 
     vec.push_back('g');
     vec.push_back('h');
     vec.push_back('i');
-    /*
+    
     cout << "After push back size = " << vec.size() << endl;
 
     vec.pop_back(); //i
@@ -38,7 +38,7 @@ int main(){
     cout << vec.front() << endl;
     cout << vec.back() << endl;
     cout << vec.at(1) << endl;
-    */
+    
 
     //Static and Dynamic allocation of memory
     // Arrays are static because array size is fixed.
